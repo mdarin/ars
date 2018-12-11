@@ -149,6 +149,6 @@ ok
 ```
 
 *WARNING!* Please, do not name your target file as 'main.c' 
-force your mind to work heartly to create more another beautiful name. 
+force your mind to work heartly to create another beautiful name. 
 Otherwise your target output will overwrite the existing one 'main.c' :)
 
