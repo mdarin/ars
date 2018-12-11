@@ -21,9 +21,8 @@ cmd line arg one of:
     optval
   
 	/*
- 	 * and recpectevely order of switches and options is free now
- 	 * regural option stay parsed in hard order 
- 	 * if there are no rule has been found 
+ 	 * and respectively order of switches and options is free now
+	 * regural options stay parsed in hard order if there are no rule has been found 
  	 */
  
 infile:
