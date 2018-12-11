@@ -1,0 +1,1 @@
+infile S 250 -o=outfile SO 250 -l=logfile SO 250 -p=helpfile SO 250 -v -h -i -B -r -W -w -E -g  

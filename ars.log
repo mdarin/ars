@@ -1,0 +1,37 @@
+Status report: Data? No
+Status report: Got data infile S 250 -o=outfile SO 250 -h -v
+
+Status report: Current State: V
+Status report: Found variable name [infile].
+Status report: Data? Yes
+Status report: Current State: T
+Status report: Found variable type [S].
+Status report: saving var [infile]
+Status report: Data? Yes
+Status report: Current State: L
+Status report: Found string length 250.
+Status report: Data? Yes
+Status report: Current State: V
+Status report: Found variable name [-o=outfile].
+Status report: Data? Yes
+Status report: Current State: T
+Status report: Found variable type [SO].
+Status report: Data? Yes
+Status report: Current State: L
+Status report: Found string length 250.
+Status report: Data? Yes
+Status report: Current State: V
+Status report: Found variable name [-h].
+Status report: Data? Yes
+Status report: Current State: V
+Status report: Found variable name [-v].
+Status report: Data? Yes
+Status report: Current State: V
+Status report: Couldn't find variable name. Looking again...
+Status report: Data? No
+Status report: Current State: S
+infile, S, 250
+-o, outfile, O, 250
+-outfile
+-h
+-v

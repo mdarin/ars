@@ -1,0 +1,28 @@
+ars version %s - GNU Ars - argv parser generator
+Authors:  
+  Michael Darin\n");  
+  Richard Heathfield\n");
+  Eton Computer Systems Ltd\n");
+  Macmillan Computer Publishing\n\n");
+  Copyright (C) 2000-2013 Free Software Foundation, Inc.\n");
+Usage: ars [options] infile
+General options:
+  -v          display current version, increase verbosity
+  -h          display this help
+  -i	      inmplement main function into output file
+  -o outfile  set output filename
+  -l logfile  set log filename
+  -p hlpfile  set plain text help filename
+  -B          set ars internal library and include path
+  -r          run compiled source
+  -W          set or reset (with 'no-' prefix) 'warning' (see man page)
+  -w          disable all warnings
+Preprocessor options: [NOT IMPLEMENTE YET!]
+  -E          preprocess only
+Linker options: [NOT IMPLEMENTE YET!]
+  ...
+Debugger options: [NOT IMPLEMENTE YET!]
+  -g          generate runtime debug info
+  -b N        show N callers in stack traces
+Misc options:[NOT IMPLEMENTE YET!]
+
