@@ -5,7 +5,7 @@ Cmd line parser generator for console WinApps
 Генератор парсеров командной стороки для консольных приложений Windows
 
 ### Original description
-
+```
 This program generates the GetArgs() function.
 It takes as input (from stdin) a file with the
   following grammar:
@@ -90,16 +90,15 @@ stringspecifier:
  -r infile S 31 outfile S 31 lbound D ubound D maxrec L -u=uname S 31 -p=passwd S 31
 
  Output: a program fragment on stdout.
- 
+ ```
 ## Usage example
 
 clone the repository...
-
-<code>$ cd to/clonned/ars/directory</code>
-
-<code>$ make</code>
-
-<code>$ ./ars default.ars -i -o generated_main.c -p default.hlp</code>
+```bash
+$ cd to/clonned/ars/directory
+$ make
+$ ./ars default.ars -i -o generated_main.c -p default.hlp
+```
 
 You should see something like this one output: 
 ```
@@ -113,15 +112,14 @@ ok
 And in the directory should appear *generated_main.c*
 
 Compile
- 
-<code>$ gcc -c generated_main.c</code>
-
-<code>$ gcc generated_main.o -o generated</code>
-
+```bash 
+$ gcc -c generated_main.c
+$ gcc generated_main.o -o generated
+```
 ...and run!
-
-<code>$ ./generated</code>
-
+```bash
+$ ./generated
+```
 ```
 Boldly! Insert some help info about your application here :)
 or create your own plain text help file and give it to ars 
@@ -134,14 +132,17 @@ Good luke!
 FAULT!
 ```
 Try input file and halp command -h
-
-<code>$ ./generated -h</code>
+```bash
+$ ./generated -h
+```
 ```
 infile: 
 h: 1
 ok
 ```
-<code>$ ./generated default.ars</code>
+```bash
+$ ./generated default.ars
+```
 ```
 infile: default.ars
 ok
